@@ -1,0 +1,52 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    background-color: aqua;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.title{
+
+    text-align: center;
+    margin: 30px;
+
+}
+
+#main_list{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.box{
+
+    padding: 5px;
+    border: 1px dashed rgb(0, 0, 0);
+    width: 300px;
+    
+}
+
+.box span{
+
+    color: red;
+    text-transform: capitalize;
+}
+
+.box p{
+
+    font-weight: 200;
+    
+
+}
